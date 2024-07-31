@@ -1,0 +1,91 @@
+:root{
+    --dark-blue: #1f2136;
+    --light-blue: #24263b;
+}
+
+.services{
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
+}
+
+.cont{
+    margin: 0% 0% 0% 0%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont h5{
+    text-align: center;
+    color: #fb4b50;
+    padding-top: 8%;
+    font-size: 0.9rem;
+}
+
+.cont p{
+    margin-top: 2.5%;
+    text-align: center;
+    color:#9ea0ad ;
+    
+}
+
+.cont h3{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    grid-template-rows: repeat(2, auto); /* Dos filas */;
+    gap: 2.5%;
+    margin: 2% 15% 11% 15%;
+    color: white;
+}
+
+hr{
+    width: 6%;
+    height: 2px;
+    background-color:#fb4b50;
+    margin: 3% auto;
+    margin-bottom: 3%;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+.box{
+    background-color: var(--light-blue);
+    border-radius: 2%;
+    padding: 13%;
+    transition: background-color 1.5s ease;
+    transition: transform 0.5s ;
+}
+
+
+.box:hover, .box:hover i, .box:hover p{
+    transform: scale(1.1);
+    background-color: #fb4b50;
+    color: white;
+
+}
+.box i{
+    color: #fb4b50;
+    font-size: 25px;
+    transition: background-color 1.5s ease;
+    transition: transform 1s ;
+    transition: color  0.5s ease;
+}
+
+.box h3{
+    margin-top: 11%;
+    font-size: 88%;
+}
+
+.box p{
+    margin-top: 11%;
+    font-size: 70%;
+    color: #9ea0ad;
+}

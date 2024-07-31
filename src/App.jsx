@@ -1,10 +1,29 @@
+import Header from "./assets/components/header/header"
+import Hero from "./assets/components/hero/hero"
+import Services from "./assets/components/servicios/services"
+import Skills from "./assets/components/skills/skills"
+import Aboutme from "./assets/components/contact/aboutme"
+import { ChakraProvider,Box } from "@chakra-ui/react"
 
-function App() {
-  
+
+const  App = ()=>{ 
 
   return (
-    <>appa anda!
-    </>
+    <ChakraProvider>
+    <Box> 
+      <Header/>
+      <Hero/>
+      <Services/>
+      <Skills/>
+      
+      <Aboutme/>
+      
+    </Box>
+    
+    
+    </ChakraProvider>
+    
+    
   )
 }
 

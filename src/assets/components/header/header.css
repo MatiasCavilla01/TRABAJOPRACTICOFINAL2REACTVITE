@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+
+
+:root{
+    --dark-blue: #1f2136;
+    --light-blue: #24263b;
+}
+
+#Title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 13%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 17%;
+}
+
+#Title span {
+    color: #fb4b50
+}
+
+
+
+header{
+    background-color: var(--dark-blue);
+    height: 6vh;
+    margin: 2% 0% 0% 0%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
+    width: 100%;
+}
+
+nav{
+    display: flex;      
+    position: fixed;
+    top: 0;
+    width: 110%;
+    z-index: 1000;   
+    background-color: var(--dark-blue);
+}
+
+
+.navbar a{
+    text-decoration: none;
+    padding: 2.2% 1% 1% 1%;
+    color: white;
+    font-size: 81%;
+    transition: transform 1.5s ease;
+    transition: background-color 1.5s ease;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 4%;
+}
+.navbar i{
+    text-decoration: none;
+    padding: 2.2% 1% 1% 1%;
+    color: white;
+    font-size: 86%;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #fb4b50;
+}
