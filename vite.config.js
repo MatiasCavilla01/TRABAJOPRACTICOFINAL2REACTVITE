@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg', '**/*.PNG'],
   rollupOptions: {
-    external: ["@chakra-ui/react"],external: ['formik']
+    external: ["@chakra-ui/react",'formik'],
   }
 })
