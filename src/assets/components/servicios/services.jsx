@@ -18,33 +18,33 @@ export default function Services() {
       <section className="contenedor-servicios">
         <div className="box">
           <i className="bi bi-globe"></i>
-          <h3>Desarrollador web</h3>
-          <p>Desarrollo de Páginas web de alta calidad</p>
+          <h3>API REST</h3>
+          <p>Conocimientos en APIs REST, protocolo HTTP, Metodos, frameworks</p>
         </div>
         <div className="box">
           <i className="bi bi-gear-wide-connected"></i>
-          <h3>Desarrollador Backend</h3>
-          <p>Desarrollo backend con Javascript y la librería express</p>
+          <h3>Backend</h3>
+          <p>Desarrollo backend de aplicaciones web con JavaScript y Java</p>
         </div>
         <div className="box">
           <i className="bi bi-window-fullscreen"></i>
-          <h3>Desarrollador Frontend</h3>
-          <p>Desarrollo Frontend con React</p>
+          <h3>Frontend</h3>
+          <p>Desarrollo Frontend de aplicaciones web con React</p>
         </div>
         <div className="box">
           <i className="bi bi-person-fill-gear"></i>
-          <h3>Analista de Requerimientos</h3>
-          <p>Análisis de Requerimientos de los clientes con las mejores Técnicas</p>
+          <h3>Testing</h3>
+          <p>Pruebas unitarias y Pruebas de Integracion </p>
         </div>
         <div className="box">
           <i className="bi bi-database"></i>
-          <h3>Desarrollador SQL</h3>
-          <p>Desarrollo de Base de Datos con SQL</p>
+          <h3>Diseñador de Bases de Datos</h3>
+          <p>Conocimientos en logica, normalizacion, definicion de Bases de datos relacionales </p>
         </div>
         <div className="box">
           <i className="bi bi-laptop"></i>
-          <h3>Desarrollador Bash Script</h3>
-          <p>Desarrollo de automatización de tareas y recursos del sistema con bash</p>
+          <h3>Arquitecto de Software</h3>
+          <p>Conocimientos en Arquitecturas monoliticas y  de microservicios</p>
         </div>
       </section>
     </section>
