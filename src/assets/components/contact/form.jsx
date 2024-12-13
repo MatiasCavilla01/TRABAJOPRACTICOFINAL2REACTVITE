@@ -48,7 +48,11 @@ const ContactForm = () => (
         emailjs.send(
           'service_yvny5pd',
           'template_e2wrola',
-          values,
+          {
+            user_name: `${values.nombre} ${values.apellido}`,
+            user_email: values.email,
+            user_descripcion: values.descripcion
+          },
           'cylz02dKL_9ocsXFM'
         ).then((response) => {
           console.log('Mensaje enviado:', response.status, response.text);
@@ -102,7 +106,7 @@ const ContactForm = () => (
               <Field
                 as={Textarea}
                 name="descripcion"
-                placeholder="Descripción"
+                placeholder="Motivo de contacto"
                 marginTop="5%"
 
 
