@@ -41,7 +41,7 @@ const ContactForm = () => {
       borderWidth="1px"
       borderRadius="md"
       color="#fb4b50"
-      width={{ base: '73%', md: '60%', lg: '36%' }}
+      width={{ base: '73%', md: '47%', lg: '45%' }}
       mx="auto"
       my={8}
     >
