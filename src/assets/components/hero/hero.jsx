@@ -40,13 +40,13 @@ export default function Hero() {
         <Box maxW="600px" textAlign={{ base: 'center', lg: 'left' }} >
           <Flex mb={4} justify={{ base: 'center', lg: 'flex-start' }} gap={3}>
             <Link href="https://wa.me/543544630650" isExternal>
-              <IconButton icon={<FaWhatsapp />} aria-label="Twitter" colorScheme="twitter" />
+              <IconButton _hover={{ transform: 'scale(1.4)'}} transition="transform 0.5s ease-in-out" icon={<FaWhatsapp />} aria-label="Twitter" colorScheme="twitter" />
             </Link>
             <Link href="https://www.instagram.com/matias.cavilla?igsh=N28wZm5kMGpoZW44" isExternal>
-              <IconButton icon={<FaInstagram />} aria-label="Instagram" colorScheme="pink" />
+              <IconButton _hover={{ transform: 'scale(1.4)'}} transition="transform 0.5s ease-in-out" icon={<FaInstagram />} aria-label="Instagram" colorScheme="pink" />
             </Link>
             <Link href="https://www.linkedin.com/in/matias-cavilla-6960352b2" isExternal>
-              <IconButton icon={<FaLinkedin />} aria-label="LinkedIn" colorScheme="linkedin" />
+              <IconButton _hover={{ transform: 'scale(1.4)'}} transition="transform 0.5s ease-in-out" icon={<FaLinkedin />} aria-label="LinkedIn" colorScheme="linkedin" />
             </Link>
           </Flex>
 
@@ -61,10 +61,10 @@ export default function Hero() {
           </Text>
 
           <Flex gap={4} justify={{ base: 'center', lg: 'flex-start' }}>
-            <Link href="../../../../public/academico.pdf" _hover={{ textDecoration: 'none' }}>
-              <Button colorScheme="teal">Mi Académico</Button>
+            <Link href="../../../../public/academico.pdf" >
+              <Button _hover={{ transform: 'scale(1.1)'}} transition="transform 0.6s ease-in-out" colorScheme="teal">Mi Académico</Button>
             </Link>
-            <Button leftIcon={<FaGithub />} colorScheme="gray" onClick={handleClick}>
+            <Button leftIcon={<FaGithub />} colorScheme="gray" _hover={{ transform: 'scale(1.1)'}} transition="transform 0.6s ease-in-out" onClick={handleClick}>
               GitHub
             </Button>
           </Flex>
@@ -80,7 +80,6 @@ export default function Hero() {
               /*boxSize={{ base: '200px', md: '300px', lg: '' }}*/
               width="100%"        // Ancho del 100% del contenedor padre
               height="auto"
-              
               objectFit="contain"
             />
           </Box>
