@@ -61,7 +61,7 @@ export default function Hero() {
           </Text>
 
           <Flex gap={4} justify={{ base: 'center', lg: 'flex-start' }}>
-            <Link href="../../../../public/academico.pdf" >
+            <Link href="/academico.pdf" >
               <Button _hover={{ transform: 'scale(1.1)'}} transition="transform 0.6s ease-in-out" colorScheme="teal">Mi Académico</Button>
             </Link>
             <Button leftIcon={<FaGithub />} colorScheme="gray" _hover={{ transform: 'scale(1.1)'}} transition="transform 0.6s ease-in-out" onClick={handleClick}>
