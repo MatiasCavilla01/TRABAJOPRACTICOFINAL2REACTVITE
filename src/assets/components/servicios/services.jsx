@@ -5,7 +5,7 @@ import { useBreakpointValue } from '@chakra-ui/react'
 
 export default function Services() {
   return (
-    <Box fontSize={useBreakpointValue({base:"10px",sm:'15px',md:'20px',lg:'26px',xl:'31px',xxl:'36px'})}>
+    <Box fontSize={useBreakpointValue({base:"14px",sm:'15px',md:'20px',lg:'26px',xl:'31px',xxl:'36px'})}>
     <section id="services" className="cont services">
       <h5 className="h5">SERVICIOS</h5>
       <h3 className="h3">Mi Servicios</h3>
